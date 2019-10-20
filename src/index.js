@@ -1,21 +1,21 @@
 
-module.exports = function addition(a, b) {
+module.exports.addition = function(a, b) {
   return String(BigInt(a)+BigInt(b));
 }
 
-module.exports = function subtraction(a, b) {
+module.exports.subtraction = function(a, b) {
   return String(BigInt(a)-BigInt(b));
 }
 
-module.exports = function multiply(a, b) {
+module.exports.multiply = function(a, b) {
   return String(BigInt(a)*BigInt(b));
 }
 
-module.exports = function division(a, b) {
+module.exports.division = function(a, b) {
   return String(BigInt(a)/BigInt(b));
 }
 
-module.exports = function stepen(a, b) {
+module.exports.stepen = function(a, b) {
   var res;
   for (res=(+a); b>1; b--) {
     res=res*a;
@@ -23,6 +23,10 @@ module.exports = function stepen(a, b) {
   return res;
 }
 
-module.exports = function facktorial(a, b) {
-  return String(BigInt(a)+BigInt(b));
+module.exports.facktorial = function(a) {
+  var res;
+  for (res=1; a>1; a--) {
+    res = res*a;
+  }
+  return res;
 }

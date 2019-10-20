@@ -1,5 +1,5 @@
 const assert = require('assert');
-const division = require('./src/index.js');
+const {division} = require('./src/index.js');
 
 it('should division 2 numbers and return 4', () => {
   assert.strictEqual(division('8', '2'), '4');

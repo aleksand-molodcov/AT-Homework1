@@ -1,5 +1,5 @@
 const assert = require('assert');
-const subtraction = require('./src/index.js');
+const {subtraction} = require('./src/index.js');
 
 it('should subtract 2 numbers and return 8', () => {
   assert.strictEqual(subtraction('16', '8'), '8');
