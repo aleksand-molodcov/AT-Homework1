@@ -4,12 +4,8 @@
   "description": "Product of 2 numbers",
   "main": "test.js",
   "scripts": {
-    "test-addition": "mocha test-addition.js",
-    "test-subtraction": "mocha test-subtraction.js",
-    "test-multiply": "mocha test-multiply.js",
-    "test-division": "mocha test-division.js",
-    "test-stepen": "mocha test-stepen.js",
-    "test-facktorial": "mocha test-facktorial.js"
+    "test-funk1": "mocha test-funk1.js"
+
   },
   "repository": {
     "type": "git",
