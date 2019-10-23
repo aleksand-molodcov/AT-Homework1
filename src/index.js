@@ -41,3 +41,12 @@ function slasher(stuff) {
   return anketa;
 }
 
+//Задание 4
+
+let stuff = 'we wish vehicle clone wonder';
+
+function replacer (stuff) {
+stuff=stuff.replace(/w/g, "W");
+return stuff;
+}
+console.log(replacer(stuff));
